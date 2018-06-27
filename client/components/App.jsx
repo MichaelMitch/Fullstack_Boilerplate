@@ -1,4 +1,5 @@
 import React from 'react'
+import {getHats} from '../apiClient'
 
 class App extends React.Component {
     constructor (props) {
@@ -8,8 +9,8 @@ class App extends React.Component {
         }
     }
 
-    componentDidMount () {
-        
-    }
+    // componentDidMount () {
+    //     getHats()
+    // }
 }
 export default App
