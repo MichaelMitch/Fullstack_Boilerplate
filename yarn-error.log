@@ -27,7 +27,14 @@ Trace:
       at addChunk (_stream_readable.js:283:12)
 
 npm manifest: 
-  No manifest
+  {
+    "name": "fullstack_boilerplate",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/MichaelMitch/fullstack_boilerplate.git",
+    "author": "MichaelMitch <michael.j.mitchelson@gmail.com>",
+    "license": "MIT"
+  }
 
 yarn manifest: 
   No manifest
