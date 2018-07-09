@@ -86,10 +86,10 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./client/apiClient.js":
-/*!*****************************!*\
-  !*** ./client/apiClient.js ***!
-  \*****************************/
+/***/ "./client/api/apiClient.js":
+/*!*********************************!*\
+  !*** ./client/api/apiClient.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -137,7 +137,7 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _apiClient = __webpack_require__(/*! ../apiClient */ "./client/apiClient.js");
+var _apiClient = __webpack_require__(/*! ../api/apiClient */ "./client/api/apiClient.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -155,9 +155,7 @@ var App = function (_React$Component) {
 
         var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
-        _this.state = {
-            hats: ['cap', 'cap', 'beanie']
-        };
+        _this.state = {};
         return _this;
     }
 

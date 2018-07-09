@@ -1,11 +1,11 @@
 import React from 'react'
-import {getHats} from '../apiClient'
+import {getHats} from '../api/apiClient'
 
 class App extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
-            hats: ['cap', 'cap', 'beanie']
+
         }
     }
     render(){
