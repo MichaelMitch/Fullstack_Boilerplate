@@ -8,9 +8,13 @@ class App extends React.Component {
             hats: ['cap', 'cap', 'beanie']
         }
     }
+    render(){
+        return(
+            <div className ="app">
+            <h1>Hello</h1>
+            </div>
 
-    // componentDidMount () {
-    //     getHats()
-    // }
+        )
+    }
 }
 export default App

@@ -4,13 +4,13 @@ const db = require('../db')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-    res.render('/home')
+    res.json()
 })
 
 router.get('/home', (req, res)=> {
     db.getHats()
     .then(hats => {
-        return res.render(hats)
+        return res.json(hats)
     })
 })
 

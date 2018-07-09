@@ -7,7 +7,14 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --watch server & yarn build --watch",
-    "build": "webpack --config ./client/webpack.config.js"
+    "build": "webpack --config ./client/webpack.config.js",
+    "test": "jest --watchAll"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -21,7 +28,8 @@
     "react-router-dom": "^4.3.1",
     "sqlite3": "^4.0.1",
     "superagent": "^3.8.3",
-    "webpack": "^4.12.2"
+    "webpack": "^4.12.2",
+    "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
     "nodemon": "^1.17.5",

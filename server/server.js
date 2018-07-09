@@ -1,7 +1,9 @@
+const path = require('path')
 const express = require('express')
 
 const hatRoutes = require('./routes/hatRoutes')
 const server = express()
-server.use(hatRoutes)
+server.use(express.json())
+server.use(express.static(path.join(__dirname, './public')))
 
 module.exports = server
